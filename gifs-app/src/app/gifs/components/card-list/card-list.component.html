@@ -1,0 +1,10 @@
+<!-- Todo: Convertir a componente -->
+<div class="row">
+  <!-- gifs-card -->
+
+  <app-gif-card
+    class="col-md-3 col-sm-6"
+    *ngFor="let item of gifList"
+    [gif]="item"
+  ></app-gif-card>
+</div>
